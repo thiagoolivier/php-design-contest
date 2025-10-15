@@ -40,12 +40,6 @@ table {
   border-spacing: 0;
 }
 
-body {
-  line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 /* ==========================================================================
    Basic styles
    ========================================================================== */
@@ -67,6 +61,9 @@ body {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1,
@@ -143,12 +140,6 @@ button {
 button:disabled {
   opacity: var(--opacity-disabled);
   cursor: not-allowed;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
 }
 
 code {
