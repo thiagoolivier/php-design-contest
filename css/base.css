@@ -56,7 +56,7 @@ body {
   font-weight: var(--font-weight-normal);
   line-height: var(--line-height-tight);
   color: var(--color-text-primary);
-  background-color: rgb(var(--color-white));
+  background-color: rgb(var(--color-primary));
   min-height: 100vh;
   display: flex;
   flex-direction: column;
