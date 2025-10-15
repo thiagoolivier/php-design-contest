@@ -1,0 +1,70 @@
+/* ==========================================================================
+   Breakpoint specific styles
+   ========================================================================== */
+
+@media (min-width: 640px) {
+  .section {
+    padding: 0 var(--spacing-6);
+  }
+
+  .hero__title {
+    padding-left: var(--spacing-6);
+  }
+
+  .hero__description {
+    padding: 0 var(--spacing-7);
+  }
+
+  .hero__container {
+    justify-content: start;
+    align-items: start;
+  }
+
+  .feature__title {
+    padding: 0 var(--spacing-5);
+  }
+
+  .code {
+    padding: 0 calc(var(--spacing-5) + 0.25rem);
+  }
+
+  .feature__extra-info,
+  .feature__extra-info p {
+    padding: 0 calc(var(--spacing-5) + 0.25rem);
+  }
+
+  .language__form {
+    justify-content: end;
+  }
+
+  .language-selector__container {
+    font-size: var(--font-size-sm);
+  }
+}
+
+@media (min-width: 1024px) {
+  .code {
+    flex-direction: row;
+  }
+
+  .code img {
+    rotate: -90deg;
+  }
+
+  .other__container {
+    flex-direction: row;
+  }
+
+  .other__item {
+    align-self: stretch;
+  }
+
+  .other__title {
+    padding: 0 var(--spacing-5);
+  }
+
+  .other__list {
+    align-self: stretch;
+    flex: 1 0 0;
+  }
+}
